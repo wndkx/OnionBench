@@ -1,0 +1,11 @@
+Onion Bench - is a utility to test time of benchmarking cpu, network and disk.
+
+cpu <times>: The normal number of times is 10000-1000000. Please wait a little bit, because it could take some time. Normal speed on 10000 is between 0.10-0.99 seconds(Tested on M1 macbook air)
+
+network <times>: The normal number of times is 1-100. Please wait a little bit, because it could take some time. Normal speed on 10 is between 1-10 seconds. It may depend on your internet.
+
+disk <times>: The normal number of times is 1000-10000000. Please wait a little bit, because it could take some time. Normal speed on 100 is between 0.01-0.09 seconds(Tested on M1 macbook air ssd, 256gb). It may depend on your disk, cpu and other stuff.(Tested on M1 macbook air)
+
+gpu <times>: The times could be any number. On some computers processes are slower than in cpu. For example MacBook Air M1. But on some computers with powerfull GPU it could work faster. (Tested on M1 macbook air)
+
+mrproper: Deletes items in bound_cache folder.
